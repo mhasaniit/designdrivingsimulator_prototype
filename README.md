@@ -46,11 +46,24 @@ For study questions, contact the study team or course instructor through the cou
 ## Using the prototype
 
 1. Select **Start drive**, choose **Sedan**, and continue.
-2. Choose Dawn, Morning, Afternoon, Evening, or Night.
-3. Start the drive and respond when the lead car brakes.
-4. **Brake now** displays positive feedback; **Maintain speed** displays unsafe feedback with a Retry option.
-5. Continue through safer driving benefits to Drive complete.
+2. Choose **Dawn, Morning, Afternoon, Evening, or Night**.
+3. Read the controls and begin three highway decisions: slowing traffic, an occupied passing lane, and an approaching exit.
+4. **Hold and release** the brake or accelerator pedal to change speed. Select the steering wheel to attempt an overtake, or choose Maintain current speed.
+5. Review feedback after each response. Practice retries preserve the first attempt in the summary.
+6. Review safer driving benefits, then finish on the original Drive complete screen.
 
-Automatic transitions can be turned off using **Auto advance**. This is an educational interface prototype; its screenshots do not model vehicle physics.
+### Controls
 
-To run it locally, download and extract the repository, keep the image files beside `index.html`, and open `index.html` in a browser. No installation is required.
+| Action | Mouse / touch | Keyboard |
+| --- | --- | --- |
+| Brake | Hold brake pedal, then release | Hold B or Space |
+| Accelerate | Hold accelerator pedal, then release | Hold A or Up arrow |
+| Attempt overtake | Select steering wheel | O or Left arrow |
+
+There is no countdown. The drive begins at **70 mph**, with separate situations beginning at 65 and 60 mph. These are illustrative starting speeds, not recommended speeds for rain. Respond to the traffic and watch the speed display. Feedback uses scenario-specific speed ranges; it is not a driving-safety assessment.
+
+The prototype uses generated highway artwork for all five times of day, plus a realistic steering wheel and pedal controls. Feedback and the summary are interactive HTML overlays on the selected scene. It does not model vehicle physics, collisions, or real steering. Braking is appropriate for these specific hazards and is not the answer to every driving situation.
+
+Choices stay in memory in the current browser session. No analytics, survey submission, recording, or response upload is built into the prototype.
+
+To run locally, download and extract the repository, keep the image files beside `index.html`, and open `index.html` in a browser. No installation is required.
