@@ -48,7 +48,7 @@ For study questions, contact the study team or course instructor through the cou
 1. Select **Start drive**, choose **Sedan**, and continue.
 2. Choose **Dawn, Morning, Afternoon, Evening, or Night**.
 3. Read the controls and begin three highway decisions: slowing traffic, an occupied passing lane, and an approaching exit.
-4. **Hold and release** the brake or accelerator pedal to change speed. Select the steering wheel to attempt an overtake, or choose Maintain current speed.
+4. Choose one of three responses: **Brake smoothly**, **Accelerate**, or **Attempt overtake**. Click once; the speed change happens automatically.
 5. Review feedback after each response. Practice retries preserve the first attempt in the summary.
 6. Review safer driving benefits, then finish on the original Drive complete screen.
 
@@ -56,11 +56,11 @@ For study questions, contact the study team or course instructor through the cou
 
 | Action | Mouse / touch | Keyboard |
 | --- | --- | --- |
-| Brake | Hold brake pedal, then release | Hold B or Space |
-| Accelerate | Hold accelerator pedal, then release | Hold A or Up arrow |
+| Brake | Click brake pedal | B or Space |
+| Accelerate | Click accelerator pedal | A or Up arrow |
 | Attempt overtake | Select steering wheel | O or Left arrow |
 
-There is no countdown. The drive begins at **70 mph**, with separate situations beginning at 65 and 60 mph. These are illustrative starting speeds, not recommended speeds for rain. Respond to the traffic and watch the speed display. Feedback uses scenario-specific speed ranges; it is not a driving-safety assessment.
+There is no countdown. The drive begins at **70 mph**, with separate situations beginning at 65 and 60 mph. These are illustrative starting speeds, not recommended speeds for rain. Read each traffic situation and choose a response. There is no pedal holding, release timing, or precise speed target to hit. Feedback evaluates the chosen action; it is not a driving-safety assessment.
 
 The prototype uses generated highway artwork for all five times of day, plus a realistic steering wheel and pedal controls. Feedback and the summary are interactive HTML overlays on the selected scene. It does not model vehicle physics, collisions, or real steering. Braking is appropriate for these specific hazards and is not the answer to every driving situation.
 
